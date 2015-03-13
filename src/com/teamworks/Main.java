@@ -3,12 +3,9 @@ package com.teamworks;
 public class Main {
 
     public static void main(String[] args) {
-//        args = new String[2];
-//        args[0] = "image1.bmp";
-//        args[1] = "image2.bmp";
 
         if (args.length < 2) {
-            System.out.println("Arguments missing, please use image1 image2");
+            System.out.println("Arguments missing, please use java -jar ImageCompare.jar image1.bmp image2.bmp");
             System.exit(1);
         }
 
